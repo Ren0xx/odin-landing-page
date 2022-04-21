@@ -1,3 +1,43 @@
 body {
-    background-color: black;
+    display:flex;
+    font-family: 'Roboto', sans-serif;    
+    margin:0 300px 0 300px;
+
+}
+.container--top{
+    background-color: #1F2937;
+}  
+.container--bottom{
+    background-color: #E5E7EB;
+}
+.header--logo {
+    padding: 0 50px 0 50px;
+    display: flex;
+    gap: 50%;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-content: center;
+}
+
+.left-links,.right-links {
+    display: flex;
+    gap:20px;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+
+.content--top{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    display: flex;
+    
+}
+.image--top{
+    width: 500px;
+    height: fit-content;
+    border-radius: 5px;
+    border: 1px solid hsl(210, 11%, 14%);
 }
