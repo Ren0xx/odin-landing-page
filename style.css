@@ -1,21 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;    
     margin: 0;
+    height: 100vh;
 }
-footer{
-    text-align: center;
-    background-color: #1F2937;   
-    font-size: 18px;
-    color: #E5E7EB;
-
-}
+/* Top of the page */
 header{
     display:flex;
     align-items: center;
     justify-content:center;
     column-gap: 60%;
 }
-
 p {
     overflow: hidden;
     max-width: 55ch;
@@ -26,11 +20,6 @@ p {
     flex-flow: column wrap;
     
 }  
-.container--bottom{
-    background-color: #E5E7EB;
-    padding: 48px;
-
-}
 .header--logo {
     gap: 50%;
     font-size: 24px;
@@ -72,4 +61,42 @@ p {
     height: auto;
     border-radius: 5px;
     border: 1px solid hsl(210, 11%, 14%);
+}
+
+/* Bottom of the page */
+
+footer{
+    background-color: #1F2937;   
+    font-size: 18px;
+    color: #E5E7EB;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: auto;
+
+}
+
+.container--bottom{
+    height: 100vh;
+    background-color: #E5E7EB;
+    padding:48px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section--images--subtext {
+    display: flex;
+    column-gap: 35px;
+
+    
+}
+.section--quote{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    padding: 0 0 0 0;
 }
