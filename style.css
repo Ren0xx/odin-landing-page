@@ -32,12 +32,6 @@ a{
     flex-direction: column;
     overflow: scroll;
 }  
-.header--logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: 800;
-    border-radius: 50%;
-}
 .right-links {
     display: flex;    
     gap:20px;
