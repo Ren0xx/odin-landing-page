@@ -25,6 +25,7 @@ p {
     padding: 50px 120px 50px 120px;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
 }  
 .header--logo {
     color: #F9FAF8;
