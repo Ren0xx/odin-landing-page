@@ -91,11 +91,12 @@ footer{
     align-items: center;
     font-weight: 400;
     padding: 50px 120px 50px 120px;
+    overflow: scroll;
 
 }
 .section--images {
     display: flex;
-    column-gap: 35px;
+    gap: 35px;
     
 }
 .images--info{
@@ -103,6 +104,11 @@ footer{
     height: 200px;
     border-radius: 50%;
     border: 0.1rem solid hsl(80, 30%, 74%);
+    transition: transform .2s;
+}
+.images--info:hover{
+    transform: scale(1.25);
+    
 }
 .section--quote{
     display: flex;
@@ -124,12 +130,6 @@ footer{
 figure.item{
     width: 30ch;
     text-align: center;
-}
-
-img.images--info{
-    
-    width: 200px;
-    height: 200px;
 }
 .caption{
     display: block;
